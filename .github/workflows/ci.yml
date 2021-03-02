@@ -1,4 +1,4 @@
-name: Test
+name: ci
 
 on:
   pull_request:
@@ -9,7 +9,7 @@ on:
       - master
 
 jobs:
-  test:
+  code-test:
     name: Rspec Test Action
     runs-on: ubuntu-latest
     steps:
