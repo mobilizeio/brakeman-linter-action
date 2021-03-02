@@ -44,7 +44,7 @@ If for some reason you need complete control, you can generate the report, and p
 
 ## Example Workflow
 
-```
+```yml
 name: Brakeman
 
 on: [push]
