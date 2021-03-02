@@ -63,7 +63,7 @@
     "contents_url": "https://api.github.com/repos/MiguelSavignano/dockerize-rails/contents/{+path}",
     "contributors_url": "https://api.github.com/repos/MiguelSavignano/dockerize-rails/contributors",
     "created_at": 1546466490,
-    "default_branch": "master",
+    "default_branch": "main",
     "deployments_url": "https://api.github.com/repos/MiguelSavignano/dockerize-rails/deployments",
     "description": "Example rails with docker, docker-compose and minikube. Use worker with sidekiq and nginx web server.",
     "disabled": false,
@@ -95,7 +95,7 @@
     "language": "Ruby",
     "languages_url": "https://api.github.com/repos/MiguelSavignano/dockerize-rails/languages",
     "license": null,
-    "master_branch": "master",
+    "master_branch": "main",
     "merges_url": "https://api.github.com/repos/MiguelSavignano/dockerize-rails/merges",
     "milestones_url": "https://api.github.com/repos/MiguelSavignano/dockerize-rails/milestones{/number}",
     "mirror_url": null,
@@ -127,7 +127,6 @@
       "url": "https://api.github.com/users/MiguelSavignano"
     },
     "private": false,
-
     "pulls_url": "https://api.github.com/repos/MiguelSavignano/dockerize-rails/pulls{/number}",
     "pushed_at": 1571872407,
     "releases_url": "https://api.github.com/repos/MiguelSavignano/dockerize-rails/releases{/id}",
