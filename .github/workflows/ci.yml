@@ -10,7 +10,7 @@ on:
 
 jobs:
   code-test:
-    name: Rspec Test Action
+    name: Run Rspec Tests on Action
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
@@ -24,3 +24,11 @@ jobs:
           bundle install --jobs 4 --retry 3
       - name: Run Rspec
         run: rspec
+
+  action-test:
+    name: Run action
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Test the local action
+        run: ./
