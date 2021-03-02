@@ -34,3 +34,4 @@ jobs:
         uses: ./
         env:
           BRAKEMAN_ARGS: --force-scan
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
