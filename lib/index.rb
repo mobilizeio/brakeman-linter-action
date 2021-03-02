@@ -22,6 +22,8 @@ end
 @report =
   if ENV['REPORT_PATH']
     read_json(ENV['REPORT_PATH'])
+  elsif ENV['BRAKEMAN_ARGS']
+    Dir.chdir(ENV['GITHUB_WORKSPACE']) { JSON.parse(`brakeman -f json #{ENV['BRAKEMAN_ARGS']}`) }
   else
     Dir.chdir(ENV['GITHUB_WORKSPACE']) { JSON.parse(`brakeman -f json`) }
   end
