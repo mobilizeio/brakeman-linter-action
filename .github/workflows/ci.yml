@@ -31,4 +31,4 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Test the local action
-        run: ./
+        uses: ./
