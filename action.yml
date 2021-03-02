@@ -1,6 +1,6 @@
 name: "Brakeman linter"
 description: "A GitHub Action that lints your Ruby code with Brakeman!"
-author: Miguel Savignano
+author: Gabriel Diaz, frok from Miguel Savignano
 runs:
   using: "docker"
   image: "Dockerfile"
