@@ -32,3 +32,5 @@ jobs:
       - uses: actions/checkout@master
       - name: Test the local action
         uses: ./
+        env:
+          BRAKEMAN_ARGS: --force-scan
