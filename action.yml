@@ -1,4 +1,4 @@
-name: "Brakeman linter"
+name: "Brakeman linter action"
 description: "A GitHub Action that lints your Ruby code with Brakeman!"
 author: Gabriel Diaz, frok from Miguel Savignano
 runs:
