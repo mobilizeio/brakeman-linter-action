@@ -4,11 +4,11 @@ source 'https://rubygems.org'
 
 group :development do
   gem 'brakeman'
-  gem 'rubocop'
+  gem 'rubocop', '~> 1.7.0'
 end
 
 group :test do
   gem 'pry'
   gem 'rspec'
-  gem 'webmock'
+  gem 'webmock', '~> 3.24'
 end
