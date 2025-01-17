@@ -7,12 +7,16 @@ class GithubClient
   end
 
   def patch(url, body = {})
+    puts "Patching with body…"
+    puts body.to_json
     request_http do |http|
       http.patch(url, body.to_json, headers)
     end
   end
 
   def post(url, body = {})
+    puts "Posting with body…"
+    puts body.to_json
     request_http do |http|
       http.post(url, body.to_json, headers)
     end
@@ -23,7 +27,7 @@ class GithubClient
   def headers
     @headers ||= {
       "Content-Type": 'application/json',
-      "Accept": 'application/vnd.github.antiope-preview+json',
+      "Accept": 'application/vnd.github+json',
       "Authorization": "Bearer #{@github_token}",
       "User-Agent": @user_agent
     }
